@@ -40,6 +40,6 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": "prettier --write"
+    "*.{js,tsx}": "eslint --fix"
   }
 }
